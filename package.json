@@ -1,0 +1,24 @@
+{
+  "name": "modulo-1-trabalho",
+  "version": "1.0.0",
+  "description": "Trabalho de vendas de ingresso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ma25th/Modulo-1-Trabalho.git"
+  },
+  "keywords": [
+    "nodejs",
+    "ingressos",
+    "javascript"
+  ],
+  "author": "Matheus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ma25th/Modulo-1-Trabalho/issues"
+  },
+  "homepage": "https://github.com/Ma25th/Modulo-1-Trabalho#readme"
+}
