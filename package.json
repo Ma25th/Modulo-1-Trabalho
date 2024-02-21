@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Ma25th/Modulo-1-Trabalho/issues"
   },
-  "homepage": "https://github.com/Ma25th/Modulo-1-Trabalho#readme"
+  "homepage": "https://github.com/Ma25th/Modulo-1-Trabalho#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
