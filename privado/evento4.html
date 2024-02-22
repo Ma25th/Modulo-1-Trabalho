@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="estilo.css">
+  <title>Super Eventos- O melhor site de ingressos</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="home.html">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="textoeventos">Festival de Samba</h1>
+    <div class="imagemdosfestivais">
+        <div>
+          <img class="image5" src="sambafestival.jpg" alt="Imagem 1">
+          <p><b>Descrição:</b>Prepare-se para uma imersão profunda na cultura brasileira neste festival! Uma explosão de cores, sabores, sons e ritmos que te convida a celebrar a riqueza e a diversidade do nosso país.</p>
+          <p><b>Preço:</b>R$100,00</p>
+          <p><b>Contato:</b>(45)9959-2479</p>
+          <p><b>Horário:</b>00:00 horas</p>
+          <p><b>Quantidade de ingressos:</b>180 ingressos</p>
+          <body>
+            <label for="quantity">Quantidade de Ingressos:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" onchange="calcularTotal()">
+            <p>Total: R$ <span id="total">0.00</span></p>
+            <button onclick="compraringresso()">Comprar Ingresso</button>
+            <div id="mensagemcompra" style="display: none;">
+               Você comprou o ingresso.
+            <script src="eventoscript.js"></script>
+          </body>
+          </div>
+    <p></p>
+      <h1></h1>
+    </main>
+    <footer>
+      <p>&copy; 2024 Super Eventos. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+  </html>
+  
