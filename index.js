@@ -3,9 +3,13 @@ import process from "process";
 import path from "path";
 import session from "express-session";
 import autenticar from "./seguranca/autenticar.js";
+import cors from "cors";
 const host="localhost";
-const porta=3000;
+const porta=4000;
 const app=express()
+app.use(cors(
+    {origin: '*'}
+));
 app.use(express.urlencoded({extended: true}));
 app.use(session({
     secret: 'SeNhAMatheus25',
